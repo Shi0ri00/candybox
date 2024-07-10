@@ -152,9 +152,9 @@ var inventory = {
    \'cnd\'\n\
    \'. .\'",
    
-    asciiWon1 : "Bravo !\nYou won\nthe game :)\nYou now have\nall the\ncandies in\nthe world.",
+    asciiWon1 : "兄弟 !\你赢了\n这个游戏 :)\n你现在有\n所有的\n这个世界上的\n糖.",
    
-    asciiWon2 : "(you can now\nask the dev\nfor a real\ncandy, if you\nfind him !)",
+    asciiWon2 : "(你现在可以\n向开发者\n要一个\n真的糖, 如果你\n找到他 !)",
    
     asciiNoObject : "            \n            \n            "
 

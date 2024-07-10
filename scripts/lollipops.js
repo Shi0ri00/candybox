@@ -13,7 +13,7 @@ var lollipops = {
             this.setNbrOwned(this.nbrOwned + 1);
             this.setNbrBought(this.nbrBought + 1);
             this.setNbrInStock(this.nbrInStock - 1);
-            shop.setMerchantSpeech("Thanks for buyin'! Here's your " + this.getFlavour() + " flavor lollipop.");
+            shop.setMerchantSpeech("谢谢惠顾! 这是你的 " + this.getFlavour() + " 棒棒糖.");
         }
     },
     
@@ -23,16 +23,16 @@ var lollipops = {
             this.setNbrOwned(this.nbrOwned + 10);
             this.setNbrBought(this.nbrBought + 10);
             this.setNbrInStock(this.nbrInStock - 10);
-            shop.setMerchantSpeech("Thanks for buyin'! Here's your ten lollipops. Various flavours.");
+            shop.setMerchantSpeech("谢谢惠顾'! 这是你的十个棒棒糖. 多种口味.");
         }
         else shop.setMerchantSpeech("I'm sorry, we don't have enough lollipops in stock to sell you ten of them. We currently have " + this.nbrInStock + " lollipops in stock.");
     },
     
     getFlavour : function(){
-        var fruits = ["apple", "strawberry", "grape", "blackberry", "orange", "watermelon", "banana", "pear", "cherry", "raspberry", "mandarin", "lime", "peach", "apricot", "blueberry", "kiwifruit", "lychee", "pineapple"];
-        var uncommon = ["chocolate", "cookie", "pancake", "water", "tomato", "kitten"];
-        var unrealistic = ["leprechaun", "korrigan", "lollipop", "snow", "storm", "door", "dracula"];
-        var abstract = ["gluttony", "desire", "love", "causality", "fatalism", "cuteness"];
+        var fruits = ["苹果", "草莓", "葡萄", "黑莓", "橘子", "西瓜", "香蕉", "梨", "樱桃", "树莓", "桂花", "青柠", "桃子", "杏", "蓝莓", "猕猴桃", "荔枝", "菠萝"];
+        var uncommon = ["巧克力", "曲奇", "煎饼", "水", "番茄", "小猫"];
+        var unrealistic = ["精灵", "棒棒糖", "雪", "风暴", "门"];
+        var abstract = ["暴食", "愿望", "爱", "因果", "宿命", "可爱"];
         
         var chances = [];
         if(this.nbrBought < 10) chances = [1];
