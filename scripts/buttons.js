@@ -222,7 +222,7 @@ var buttons = {
                     shop.setBuy10LollipopsButtonShown(true);
                     if(htmlInteraction.isElementVisible("buy_10_lollipops") == false){ // If it wasn't shown yet
                         htmlInteraction.showButton("buy_10_lollipops");
-                        shop.setMerchantSpeech("There's now a discount for 10 lollipops! Buy them please.. I need candiiiies!");
+                        shop.setMerchantSpeech("现在十根棒棒糖有优惠! 请买它们..我需要糖!");
                     }
                     this.enableButton("buy_10_lollipops");
                 }
